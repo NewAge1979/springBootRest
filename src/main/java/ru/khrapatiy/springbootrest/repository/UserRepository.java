@@ -18,7 +18,8 @@ public class UserRepository {
         users = List.of(
                 new User("user1", "password1", List.of(Authorities.READ)),
                 new User("user2", "password2", List.of(Authorities.READ, Authorities.WRITE)),
-                new User("user3", "password3", List.of(Authorities.READ, Authorities.WRITE, Authorities.DELETE))
+                new User("user3", "password3", List.of(Authorities.READ, Authorities.WRITE, Authorities.DELETE)),
+                new User("user", "password", List.of(Authorities.READ, Authorities.WRITE, Authorities.DELETE))
         );
     }
 
